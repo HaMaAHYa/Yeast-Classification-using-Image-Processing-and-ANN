@@ -13,24 +13,6 @@ The script automatically processes images from training folders, trains a classi
 
 -----
 
-## Table of Contents
-
-  * [Project Goal](https://www.google.com/search?q=%23project-goal-%F0%9F%8E%AF)
-  * [How It Works: The Pipeline](https://www.google.com/search?q=%23how-it-works-the-pipeline-%E2%9A%99%EF%B8%8F)
-      * [1. Image Registration (ROI Finding)](https://www.google.com/search?q=%231-image-registration-roi-finding)
-      * [2. Image Segmentation (Cell Detection)](https://www.google.com/search?q=%232-image-segmentation-cell-detection)
-      * [3. Feature Extraction (Density Analysis)](https://www.google.com/search?q=%233-feature-extraction-density-analysis)
-      * [4. ANN Training & Evaluation](https://www.google.com/search?q=%234-ann-training--evaluation)
-  * [Visual Output](https://www.google.com/search?q=%23visual-output-%F0%9F%93%8A)
-  * [Installation](https://www.google.com/search?q=%23installation-%F0%9F%9A%80)
-  * [Usage](https://www.google.com/search?q=%23usage-%E2%96%B6%EF%B8%8F)
-      * [Step 1: Set Up Your Data](https://www.google.com/search?q=%23step-1-set-up-your-data)
-      * [Step 2: Run the Script](https://www.google.com/search?q=%23step-2-run-the-script)
-  * [Tunable Parameters Explained](https://www.google.com/search?q=%23tunable-parameters-explained-%F0%9F%94%A7)
-      * [Registration Parameters](https://www.google.com/search?q=%23registration-parameters)
-      * [Segmentation Parameters](https://www.google.com/search?q=%23segmentation-parameters)
-  * [Future Improvements](https://www.google.com/search?q=%23future-improvements-%F0%9F%92%A1)
-
 ## Project Goal 🎯
 
 The goal of this project is to automate the classification of two types of yeast (SC and SP) from bright-field microscope images. Instead of complex shape (morphological) analysis, this model tests the hypothesis that the two types can be distinguished by their **average cell density** within the field of view.
